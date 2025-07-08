@@ -7,7 +7,7 @@ export default function NadiMatchingSection() {
                 Nadi Matching
             </h2>
 
-            <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-5xl mx-auto space-y-6">
+            <div className="bg-[#fefae0] rounded-2xl p-6 max-w-5xl mx-auto space-y-6">
                 <p className="text-lg leading-relaxed">
                     Nadi Koot is one of the most important aspects in horoscope matching. It represents <strong>Pranic compatibility</strong> — the flow of life energy between the couple.
                 </p>
@@ -59,6 +59,18 @@ export default function NadiMatchingSection() {
                     ⚠️ If Nadi Dosha is present, it must be carefully analyzed or cancelled through exceptions (like same Gotra, Grah Maitri 5/5, etc.).
                 </p>
             </div>
+
+            <a
+                href="/images/nadi-dosh-cancellation-matrix.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mx-auto mt-4 w-fit bg-white border border-yellow-500 hover:border-yellow-600 text-yellow-700 hover:text-yellow-900 font-semibold px-6 py-3 rounded-xl shadow transition-all hover:shadow-lg"
+            >
+                📄 View Detailed Nadi Cancellation PDF
+            </a>
+            <p className="text-sm italic text-center text-gray-600 mt-2">
+                *In the PDF, blank spaces indicate cases where <span className="font-medium text-[#ce9a48]">Tara Suddhi</span> is required for cancellation.
+            </p>
         </section>
     );
 }

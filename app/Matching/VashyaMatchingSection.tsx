@@ -7,7 +7,7 @@ export default function VashyaMatchingSection() {
         Vashya Matching
       </h2>
 
-      <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-5xl mx-auto space-y-4">
+      <div className="bg-[#fefae0] rounded-2xl p-6 max-w-5xl mx-auto space-y-4">
         <p className="text-lg leading-relaxed">
           Vashya Koot signifies the influence and control between two individuals in a relationship. It is based on their <strong>Moon Signs (Rashi)</strong>.
         </p>

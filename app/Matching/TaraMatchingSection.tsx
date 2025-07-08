@@ -7,7 +7,7 @@ export default function TaraMatchingSection() {
         Tara Matching
       </h2>
 
-      <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-6xl mx-auto space-y-4">
+      <div className="bg-[#fefae0] rounded-2xl p-6 max-w-6xl mx-auto space-y-4">
         <p className="text-lg leading-relaxed">
           Tara Koot (also called <strong>Din Koot</strong>) is based on the Nakshatra (constellation) of the bride and groom. It checks the health, longevity, and well-being of the couple.
         </p>

@@ -7,7 +7,7 @@ export default function GrahMaitriSection() {
                 Grah Maitri Matching
             </h2>
 
-            <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-6xl mx-auto space-y-4">
+            <div className="bg-[#fefae0] rounded-2xl p-6 max-w-6xl mx-auto space-y-4">
                 <p className="text-lg leading-relaxed">
                     Grah Maitri (ग्रह मैत्री) checks the friendship between the ruling planets of the Moon signs (Rashi) of the bride and groom. It reflects their mental compatibility, harmony, and mutual understanding.
                 </p>

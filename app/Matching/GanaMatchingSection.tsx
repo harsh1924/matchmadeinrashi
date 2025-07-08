@@ -7,7 +7,7 @@ export default function GanaMatchingSection() {
                 Gana Matching
             </h2>
 
-            <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-4xl mx-auto space-y-4">
+            <div className="bg-[#fefae0] rounded-2xl p-6 max-w-4xl mx-auto space-y-4">
                 <p className="text-lg leading-relaxed">
                     Gana Koot helps determine the nature compatibility between the couple. It classifies individuals into three temperamental types — <strong>Deva</strong>, <strong>Manushya</strong>, and <strong>Rakshasa</strong> — based on their <strong>Nakshatra</strong>.
                 </p><div className="rounded-xl overflow-hidden border">

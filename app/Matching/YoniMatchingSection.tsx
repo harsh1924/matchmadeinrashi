@@ -7,7 +7,7 @@ export default function YoniMatchingSection() {
         Yoni Matching
       </h2>
 
-      <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-6xl mx-auto space-y-4">
+      <div className="bg-[#fefae0] rounded-2xl p-6 max-w-6xl mx-auto space-y-4">
         <p className="text-lg leading-relaxed">
           Yoni Koot refers to sexual and biological compatibility between partners. It is determined by their respective <strong>Nakshatras</strong> (constellations), each associated with a specific <strong>Yoni (animal symbol)</strong>.
         </p>

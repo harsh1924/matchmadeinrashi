@@ -57,8 +57,8 @@ export default function KootaInfoPanel() {
     };
 
     return (
-        <section className="pt-10 pb-20 px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <section className="pt-10 pb-20">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
                 {/* Left side: Koota list */}
                 <div className="rounded-xl bg-[#fefae0] shadow p-4 space-y-2 border">
                     {KOOTA_LIST.map((koota) => (

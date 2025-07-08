@@ -7,7 +7,7 @@ export default function BhakootMatchingSection() {
                 Bhakoot Matching
             </h2>
 
-            <div className="bg-[#fefae0] rounded-2xl shadow p-6 max-w-6xl mx-auto space-y-6">
+            <div className="bg-[#fefae0] rounded-2xl p-6 max-w-6xl mx-auto space-y-6">
                 <p className="text-lg leading-relaxed">
                     Bhakoot Koot helps understand how a couple will live together — both emotionally and practically. It checks the <strong>distance between their Moon Signs (Rashi)</strong>.
                 </p>
@@ -52,7 +52,7 @@ export default function BhakootMatchingSection() {
                             If the <strong>D9 Lagna Lords</strong> (Navamsa Ascendants) of the boy and girl are <strong>friendly</strong>, Bhakoot Dosha can be cancelled.
                         </li>
                         <li>
-                            If the couple has <strong>full 3/3 points in Tara Koot</strong> (Tara Suddhi), then Bhakoot Dosha is considered <strong>not applicable</strong>.
+                            If the couple has <strong>full 3/3 points in Tara Koot</strong> (Tara Suddhi), then Bhakoot Dosha is considered <strong>not applicable in some cases.</strong>.
                         </li>
                         <li>
                             If the <strong>girl’s Moon sign</strong> is in the <strong>9th house</strong> from the boy’s, and the <strong>boy’s Moon sign</strong> is in the <strong>5th house</strong> from the girl’s, Bhakoot Dosha is <strong>cancelled</strong> due to auspicious trine relationship.
@@ -96,6 +96,13 @@ export default function BhakootMatchingSection() {
             >
                 📄 View Detailed Bhakoot Cancellation PDF
             </a>
+            <p className="bg-yellow-50 text-gray-800 p-4 rounded-md text-sm leading-relaxed space-y-1">
+                <strong>c1</strong> – Cancelled<br />
+                <strong>c2</strong> – Boy to Girl distance 9<br />
+                <strong>c3</strong> – Girl to Boy distance 5<br />
+                <strong>c4</strong> – Tara Suddhi (blank cells imply c4)
+            </p>
+
             <p className="text-sm italic text-center text-gray-600 mt-2">
                 *In the PDF, blank spaces indicate cases where <span className="font-medium text-[#ce9a48]">Tara Suddhi</span> is required for cancellation.
             </p>

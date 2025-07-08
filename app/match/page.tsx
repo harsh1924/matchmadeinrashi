@@ -6,6 +6,8 @@ import MoonNakshatraInfo from '../(components)/MoonNakshatraInfo'
 import KootaBreakdown from '../(components)/KootaBreakdown'
 import MatchingIntro from '../Matching/MatchingIntro'
 import KootaInfoPanel from '../Matching/KootaInfoPanel'
+import MangalDoshaCancellation from '../(components)/MangalDoshaCancellation'
+import OtherConsiderations from '../(components)/OtherConsiderations'
 
 const page = () => {
     return (
@@ -87,6 +89,9 @@ const page = () => {
             {/* Matching */}
             <MatchingIntro />
             <KootaInfoPanel />
+
+            <MangalDoshaCancellation />
+            <OtherConsiderations />
         </div>
     )
 }

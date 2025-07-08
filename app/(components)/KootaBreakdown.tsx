@@ -1,14 +1,12 @@
-import { Button } from "@/components/ui/button"
-
 export default function KootaTable() {
     const kootas = [
-        { name: "Varna", points: 1, desc: "Spiritual compatibility & ego" },
-        { name: "Vashya", points: 2, desc: "Mutual control or dominance" },
+        { name: "Varna", points: 1, desc: "Spiritual compatibility, social alignment & ego" },
+        { name: "Vashya", points: 2, desc: "Mutual control or dominance - Who influences whom" },
         { name: "Tara", points: 3, desc: "Health and fortune compatibility" },
         { name: "Yoni", points: 4, desc: "Sexual and instinctive compatibility" },
         { name: "Graha Maitri", points: 5, desc: "Mental & friendship compatibility" },
         { name: "Gana", points: 6, desc: "Temperament and behavior match" },
-        { name: "Bhakoot", points: 7, desc: "Emotional bonding and harmony" },
+        { name: "Bhakoot", points: 7, desc: "Emotional bonding and harmony - Critical for long-term compatibility" },
         { name: "Nadi", points: 8, desc: "Genetic and health compatibility" },
     ]
 
