@@ -6,6 +6,7 @@ import KootaInfoPanel from '../Matching/KootaInfoPanel'
 import KootaBreakdown from '../(components)/KootaBreakdown'
 import MangalDoshaCancellation from '../(components)/MangalDoshaCancellation'
 import OtherConsiderations from '../(components)/OtherConsiderations'
+import MajorYogas from '../(components)/MajorYogas'
 
 const Me = () => {
     return (
@@ -18,6 +19,7 @@ const Me = () => {
             <KootaInfoPanel />
             <MangalDoshaCancellation />
             <OtherConsiderations />
+            <MajorYogas />
         </div>
     )
 }

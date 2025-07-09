@@ -2,7 +2,7 @@
 
 export default function OtherConsiderations() {
     return (
-        <section className="pt-10 h-[800px] overflow-scroll no-scrollbar">
+        <section className="pt-10 overflow-scroll no-scrollbar">
             <h2 className="text-3xl font-bold text-center text-[#ce9a48] mb-6">
                 Other Factors Also Considered
             </h2>
