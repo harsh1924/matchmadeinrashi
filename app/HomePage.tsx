@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { useRouter } from "next/navigation"
-import Navbar from "./Navbar"
+import Navbar from "./(components)/Navbar"
 
 export default function HomePage() {
     const router = useRouter()
@@ -51,6 +51,13 @@ export default function HomePage() {
                             variant={"red"}
                         >
                             Planets Strength
+                        </Button>
+                        <Button
+                            onClick={() => router.push("/muhurat")}
+                            className="px-8 py-6 cursor-pointer text-lg font-semibold rounded-md"
+                            variant={"red"}
+                        >
+                            Tithi Muhurat
                         </Button>
                     </div>
                 </div>
